@@ -2,7 +2,7 @@ services:
   porkcron:
     build: .
     container_name: porkcron
-    env_file: ../.env
+    env_file: .env
     volumes:
       - ssl:/etc/porkcron
 
